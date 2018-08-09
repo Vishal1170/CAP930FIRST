@@ -1,0 +1,112 @@
+1 . print("HELLO WORLD") or '''HELLO WORLD!'''
+2. help()
+3. import this
+4. FOR CLEARING THE SCREEN
+import os
+os.system('cls')
+5. x="HELLO"
+x+"WORLD"
+OUTPUT : 'HELLOWORLD'
+6. m="xhgcjacjbm8268268"
+type(m)
+OUTPUT : <class 'str'>
+7. s18=10
+s18
+OUTPUT : 10
+8. "a"+"b"
+OUTPUT : 'ab'
+9. STRING DECLERATIONS :
+way1='hello world!'
+>>> way1
+'hello world!'
+>>> way2="hello world!"
+>>> way2
+'hello world!'
+>>> way3='''hello world!'''
+>>> way3
+'hello world!'
+10. type(type(int))
+<class 'type'>
+11. 8+1
+9
+>>> 5/2
+2.5
+>>> 9/3
+3.0
+>>> 10.5-2.4
+8.1
+>>> 9//3
+3
+>>> 3+7
+10
+>>> 7/1.4
+5.0
+12. 7//3(integer division)
+2
+>>> 7%3(integer modulas)
+1
+>>> 2**4(exponentiation)
+16
+13. not True
+False
+>>> True and False
+False
+>>> False and True
+False
+>>> True or False
+True
+14. 1== 1
+True
+>>> 3 ==5
+False
+1!= 1
+False
+2 * 3 != 5
+True
+15. 2 * 3 != 5
+True
+>>> 1<10
+True
+>>> 2>=0
+True
+>>> 1<2<3
+True
+>>> 1<2>=3
+False
+16. greeting = 'HELLO'
+>>> group = "WORLD"
+>>> a = 'AKSHAY'
+>>> greeting+' '+group+' '+a
+'HELLO WORLD AKSHAY'
+17. s = 'AKSHAY'
+>>> s[3]
+'H'
+>>> s[0]
+'A'
+>>> s[5]
+'Y'
+>>> s[-2]
+'A'
+>>> s[-1]
+'Y'
+>>> s[-3]
+'H'
+18. SLICING
+>>>s[0:3] (0 is included and 3 is excluded)
+'AKS'
+>>>s[:4]
+'AKSH'
+>>> s[2:]
+'SHAY'
+>>>s[1:3:2] (Here 2 is the step size)
+'K'
+>>> s[1:5:2]
+'KH'
+>>> s[0:7:2]
+'ASA'
+>>> s[0::7]
+'A'
+>>> s[0::6]
+'A'
+>>> s[1::7]
+'K'
