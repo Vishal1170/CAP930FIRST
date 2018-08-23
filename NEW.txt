@@ -1,0 +1,57 @@
+>>> import pandas
+>>> import numpy
+>>> import matplotlib
+>>> akshay = (1,3,4)
+>>> rana = (2,3,4)
+>>> type(rana)
+<class 'tuple'>
+>>> a = {1,3,4}
+>>> type(a)
+<class 'set'>
+>>> b = ('rana','shd','asdh')
+>>> type(b)
+<class 'tuple'>
+>>> b = ('r','s','a')
+>>> type(b)
+<class 'tuple'>
+>>> b = {'r','s','a'}
+>>> b
+{'r', 's', 'a'}
+>>> type(b)
+<class 'set'>
+>>> b = {'rana','shd','asdh'}
+>>> type(b)
+<class 'set'>
+>>> a = set("mississippi")
+>>> a.add('r')
+>>> a
+{'p', 'm', 'i', 's', 'r'}
+>>> a.remove('m')
+>>> a
+{'p', 'i', 's', 'r'}
+>>> a.discard('i')
+>>> a
+{'p', 's', 'r'}
+>>> a.pop()
+'p'
+>>> a.clear()
+>>> a
+set()
+>>> len(a)
+0
+>>> a = set("abracadabra")
+>>> b = set("alacazam")
+>>> a
+{'d', 'c', 'a', 'b', 'r'}
+>>> b
+{'l', 'm', 'c', 'a', 'z'}
+>>> a - b
+{'r', 'd', 'b'}
+>>> a | b
+{'d', 'l', 'm', 'c', 'a', 'b', 'r', 'z'}
+>>> b - a
+{'l', 'z', 'm'}
+>>> a & b
+{'a', 'c'}
+>>> a ^ b
+{'l', 'd', 'm', 'r', 'b', 'z'}
